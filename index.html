@@ -1,0 +1,109 @@
+<!-- <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Percentage Calculator</title>
+</head>
+<body>
+    <h1>Percentage Calculator</h1>
+    <form onsubmit="Calculator(); return false">
+        <table>
+            <tr>
+              <th>SUBJECTS</th>
+              <th>OBTAINED MARKS</th>
+              <th>TOTAL MARKS</th>
+            </tr>
+            <tr>
+              <td>Maths</td>
+              <td><input type="number" name="Maths" id="sub1"></td>
+              <td><input type="number" name="Total Maths" id="tsub1"></td>
+            </tr>
+            <tr>
+              <td>Urdu</td>
+              <td><input type="number" name="Urdu" id="sub2"></td>
+                <td><input type="number" name="Total Urud" id="tsub2"></td>
+            </tr>
+            <tr>
+              <td>English</td>
+            <td><input type="number" name="English" id="sub3"></td>
+            <td><input type="number" name="Total English" id="tsub3"></td>
+                    </tr>
+            <tr>
+                <td>Physics</td>
+                <td><input type="number" name="Physics" id="sub4"></td>
+                <td><input type="number" name="Total Physics" id="tsub4"></td>
+              </tr>
+      
+          </table>
+       
+<button type="submit">Calculate</button>
+
+</form>
+<div id="result"></div>
+    <script src="SecondClass.js"></script>
+    
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Percentage Calculator</title>
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="card">
+            <div class="card-header text-center">
+                <h1>Percentage Calculator</h1>
+            </div>
+            <div class="card-body">
+                <form onsubmit="Calculator(); return false">
+                    <table class="table table-bordered table-striped">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>SUBJECTS</th>
+                                <th>OBTAINED MARKS</th>
+                                <th>TOTAL MARKS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Maths</td>
+                                <td><input type="number" class="form-control" name="Maths" id="sub1"></td>
+                                <td><input type="number" class="form-control" name="Total Maths" id="tsub1"></td>
+                            </tr>
+                            <tr>
+                                <td>Urdu</td>
+                                <td><input type="number" class="form-control" name="Urdu" id="sub2"></td>
+                                <td><input type="number" class="form-control" name="Total Urdu" id="tsub2"></td>
+                            </tr>
+                            <tr>
+                                <td>English</td>
+                                <td><input type="number" class="form-control" name="English" id="sub3"></td>
+                                <td><input type="number" class="form-control" name="Total English" id="tsub3"></td>
+                            </tr>
+                            <tr>
+                                <td>Physics</td>
+                                <td><input type="number" class="form-control" name="Physics" id="sub4"></td>
+                                <td><input type="number" class="form-control" name="Total Physics" id="tsub4"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button type="submit" class="btn btn-primary rounded-pill">Calculate</button>
+                </form>
+                <div id="result"></div>
+            </div>
+        </div>
+    </div>
+    <script src="SecondClass.js"></script>
+</body>
+</html>
+
+</html>
+
